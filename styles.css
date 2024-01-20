@@ -1,0 +1,9 @@
+.main-header{
+    background-color: rgb(171, 171, 184);
+    background-image: url(Swimming.jpeg );
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+
+
+}
