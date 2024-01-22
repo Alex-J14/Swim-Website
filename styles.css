@@ -1,9 +1,85 @@
+*{
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+    color: white
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color:white;
+    text-decoration: none;
+
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 2em;
+    font-weight: lighter;
+    border-bottom: 2px solid rgba(255,255,255,rgba(255, 255, 255, .3));
+}
+
+.main-nav li{
+    padding: 0 5%;
+
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
 .main-header{
     background-color: rgb(171, 171, 184);
-    background-image: url(Swimming.jpeg );
+    background-image: url(water1.jpeg);
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
 
 
+}
+
+.school-name{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-weight:200;
+}
+
+.school-name-large{
+    font-size: 5em;
+}
+
+.content-section{
+    margin: 1em;
+    text-align: center;
+    
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.list-content{
+
+    text-align: left;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
