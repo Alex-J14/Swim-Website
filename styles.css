@@ -25,19 +25,46 @@ html, body{
 }
 
 .main-nav{
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: lighter;
+    border-bottom: 2px solid rgba(255,255,255,rgba(255, 255, 255, .3));
+}
+
+.main-nav li{
+    padding: 0 4%;
+
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.footer-nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.footer-nav li{
+    padding: 0 5%;
+    display: inline;
+}
+
+.footer-nav{
     text-align: center;
     font-size: 2em;
     font-weight: lighter;
     border-bottom: 2px solid rgba(255,255,255,rgba(255, 255, 255, .3));
 }
 
-.main-nav li{
-    padding: 0 5%;
-
+.footer-nav a{
+    display: inline-block;
+    padding: .5em;
+    color:white;
+    text-decoration: none;
 }
 
-.nav a:hover{
-    background-color: rgba(255, 255, 255, .3);
+.footer-nav ul{
+    margin: 0;
 }
 
 .main-header{
