@@ -25,10 +25,10 @@ html, body{
 }
 
 .main-nav{
-    text-align: left;
+    text-align: center;
     font-size: 1.5em;
     font-weight: lighter;
-    border-bottom: 2px solid rgba(255,255,255,rgba(255, 255, 255, .3));
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .main-nav li{
@@ -51,9 +51,9 @@ html, body{
 
 .footer-nav{
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: lighter;
-    border-bottom: 2px solid rgba(255,255,255,rgba(255, 255, 255, .3));
+    border-top: 2px solid rgba(255, 255, 255, .3);
 }
 
 .footer-nav a{
@@ -68,12 +68,12 @@ html, body{
 }
 
 .main-header{
-    background-color: rgb(171, 171, 184);
+    background-color: rgb(176, 176, 211);
     background-image: url(water1.jpeg);
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
-
+    
 
 }
 
