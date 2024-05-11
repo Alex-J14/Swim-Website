@@ -1,11 +1,14 @@
 *{
     box-sizing: border-box;
-    font-family:'Courier New', Courier, monospace;
-    color: white
+    font-family: 'Courier New', Courier, monospace;
+    font: 1.025em courier;    color: white;
 }
+
+
 html, body{
     margin: 0;
     padding: 0;
+    
 }
 
 .nav ul{
@@ -25,15 +28,16 @@ html, body{
 }
 
 .main-nav{
+    padding: .5%;
     text-align: center;
     font-size: 1.5em;
     font-weight: lighter;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    border-bottom: .15vh solid rgba(255, 255, 255, 0.3);
+    
 }
 
 .main-nav li{
     padding: 0 5%;
-
 }
 
 .nav a:hover{
@@ -50,10 +54,11 @@ html, body{
 }
 
 .footer-nav{
+    padding: .5%;
     text-align: center;
     font-size: 1.5em;
     font-weight: lighter;
-    border-top: 2px solid rgba(255, 255, 255, .3);
+    border-top:.15vh solid rgba(255, 255, 255, .3);
 }
 
 .footer-nav a{
@@ -61,6 +66,7 @@ html, body{
     padding: .5em;
     color:white;
     text-decoration: none;
+
 }
 
 .footer-nav ul{
@@ -85,28 +91,126 @@ html, body{
 }
 
 .school-name-large{
-    font-size: 5em;
+    font-size: 4em;
 }
 
 .content-section{
-    margin: 1em;
-    text-align: center;
-    
+    padding: 2em;
+    margin: 5vh;
+    text-align: center;    
+}
+
+.content-section h2{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.content-section h3{
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .container{
     max-width: 900px;
+    max-height: auto;
     margin: 0 auto;
-    padding: 0 1.5em;
+    padding: 5em 1.5em;
 }
 
 .list-content{
-
+    /*list-style-position: inside;*/
+    list-style-position:outside;
+    display:grid;
+    row-gap: 8px;
     text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+}
+.Orlando{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .center{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+.schedule-table{
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: auto;
+    text-align: center;
+
+}
+
+/*.classes-table{
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: auto;
+    text-align: center;
+}*/
+
+.classes-container{
+    /*max-width: 400px;*/
+    display: grid;
+    grid-template-columns: repeat(2, minmax(400px, 1fr));
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    gap: 15px 0px;
+    
+
+}
+.home{
+    font-size: 30;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+}
+
+.class-item{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+}
+
+.contact-info{
+    /*max-width: 400px;*/
+    padding: 3em;
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    gap: 15px 2px;
+    border: 1px black;
+
+}
+
+.item1 strong{
+    font-weight: 800;
+}
+
+.info-item{
+    text-align: center;
+    column-gap: 2px;
+    
+}
+
+.item1{
+    /*grid-column: 1 / span 2;*/
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.Classes-info h2{
+    margin-top:7vh;
+    font-size: 25px;
+    font-weight: 700;
 }
